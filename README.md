@@ -1,8 +1,8 @@
 # Aurum Accord
 
-**Tech4Bharat 2026 · Problem Statement 2.2**
+**Tech4Bharat 2026 · Problem Statement 2.2 · Jeweltech**
 
-A repo starter for the Aurum Accord idea submission. It includes copy-ready form text, the presentation in PDF and editable PowerPoint formats, product boundaries, and the research references shown in the deck.
+A repo starter for the Aurum Accord idea submission. It includes the copy-ready submission fields, the presentation PDF, product scope, and supporting research references.
 
 ## Submission form content
 
@@ -12,32 +12,32 @@ Aurum Accord: Bilateral Gold Job-Work Ledger
 
 ### Brief about your idea
 
-Aurum Accord is a proposed shared job-work record for jewellers and karigars handling gold orders. It records agreed terms, gold issued and returned, and flags differences for neutral review. An AI agent asks about missing details and prepares a monthly statement for both parties to review. AI suggestions stay provisional until confirmed; calculations are transparent, and the system does not assign fault, apply deductions, or execute payments.
+Aurum Accord is a proposed shared gold job-work record for jewellers and karigars. It captures agreed job terms, gold handovers and returns, and shows unresolved weight or material differences as open items for both parties to review. An AI agent asks focused questions about missing details and prepares a monthly statement for their approval. Each karigar can access their own account and review, confirm, or dispute entries. AI suggestions remain provisional until confirmed; calculations are transparent, and the system does not assign fault, apply deductions, or execute payments.
 
 ### Detailed explanation of the idea
 
-Aurum Accord gives a jeweller and karigar one shared record for each gold job. The jeweller records the agreed terms and the gold issued. The karigar records returned pieces and classifies remaining material, such as scrap or unused gold. Both parties can review the entries, delivery status, and any unresolved differences.
+Aurum Accord is designed around one jeweller–karigar relationship and a shared record for each gold job. Before work begins, the jeweller records the agreed terms, due date, relevant purity and weight details, and the quantity of gold handed over. The karigar can access their own account, review and confirm the handover, then record returned pieces, weights, scrap or other remaining material, and job progress. Both parties can see which entries are confirmed and which still need review.
 
-A rules-based ledger calculates differences from the recorded quantities and shows the inputs behind each result. If a return weight differs or material is not yet classified, the system opens a neutral clarification thread. The agent can ask a focused follow-up or draft a reminder. Any AI-extracted or AI-drafted content remains marked **Suggested** until a person confirms it. Corrections are added as new entries so the earlier record remains visible.
+Gold reconciliation is the core workflow. A rules-based ledger compares the recorded issue, return, and remaining-material quantities, showing the inputs and arithmetic behind each balance. When an entry leaves an unresolved balance, Aurum Accord opens an item for review immediately rather than waiting until month-end. If the parties record different return weights, it preserves both values and asks them to clarify or correct the record. If remaining gold has not been classified, the agent asks a focused question about it. It does not decide which person or measurement is right.
 
-At monthly close, Aurum Accord prepares one statement showing the job records, unresolved items, and settlement status. The jeweller and karigar review and approve the same statement version. The product does not decide who is at fault, enforce a universal wastage rule, deduct gold or money, or execute payment.
+In the illustrative Job 12, 250.000 g is issued. The karigar first records 244.620 g returned, while the jeweller records 244.640 g, so the 0.020 g difference becomes an open item. After review, the karigar corrects the return to 244.640 g. The karigar then classifies 4.700 g as recoverable scrap, leaving 0.660 g. In this example only, that balance is 0.340 g below the 1.000 g allowance agreed for the job. These figures demonstrate the workflow; they are not industry benchmarks.
 
-The proposed MVP is a shared job card, confirmation-first ledger, issue and return entries, a discrepancy thread, an agent plan panel with typed AI drafting, and a monthly statement with dual approval. Offline draft queue, voice input, and English plus one Indian language are planned; approvals require a connection. Reminders are simulated in the presentation.
+The agent tracks missing information and pending confirmations, drafts a neutral clarification or reminder, and prepares a monthly statement showing job entries, open items, and settlement status. AI-drafted text stays marked **Suggested** until a person confirms it. Corrections are added as new entries so earlier records remain visible. At month-end, both parties review and approve the same statement version. Aurum Accord does not assign fault, impose a universal wastage rule, make deductions, or execute payment.
 
-The Job 12 figures in the deck are an **illustrative workflow example**, not an industry benchmark. The idea is based on desk research; local workflows and adoption assumptions still need validation.
+The proposed MVP includes a shared job card, confirmation-first ledger, issue and return entries, discrepancy thread, rules-based plan panel, typed AI drafting, and monthly statement with dual approval. An offline draft queue, voice input, and English plus one Indian language are planned; approvals require a connection. Reminders are simulated in the presentation.
 
-### Presentation Deck (optional)
+Desk research suggests jewellery ERP products cover parts of job-work operations and reconciliation. Aurum Accord’s proposed focus is narrower: a karigar-friendly, bilateral confirmation and settlement workflow for one jeweller–karigar relationship. This positioning, along with local workflows, adoption, and willingness to pay, still needs validation.
 
-Upload either file from [`presentation/`](presentation/):
+### Presentation Deck
 
-- `Aurum_Accord_Tech4Bharat.pdf` — ready-to-view deck.
-- `Aurum_Accord_Tech4Bharat_Editable.pptx` — editable PowerPoint deck.
+The PDF presentation is in [`presentation/`](presentation/):
 
-### Additional supporting links (GitHub / research reference)
+- [`Aurum_Accord_Tech4Bharat.pdf`](presentation/Aurum_Accord_Tech4Bharat.pdf)
 
-- **GitHub repository:** add the repository URL here after you create it.
+### Additional supporting links (research reference)
+
 - **Research references:** see [`docs/REFERENCES.md`](docs/REFERENCES.md).
 
 ## Repository status
 
-This package is a submission and repository starter, not a software implementation. It does not claim field interviews, a working prototype, market validation, or willingness-to-pay research. See [`docs/PROJECT_SCOPE.md`](docs/PROJECT_SCOPE.md) before adding implementation claims.
+This repository contains submission materials and product-scope notes; it does not contain a working software implementation. No field interviews, local adoption validation, or willingness-to-pay research are claimed. See [`docs/PROJECT_SCOPE.md`](docs/PROJECT_SCOPE.md) before adding implementation claims.
